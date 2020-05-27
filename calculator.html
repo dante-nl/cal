@@ -21,42 +21,31 @@ color: #fff
         <title>Calbot - Calculator</title>
     </head>
     <body>
-        <div id='calc-contain'>
-  
-          <form name="calculator">
-            
-            <input type="text" name="answer" />
-            <br>
-            
-            <input type="button" value=" 1 " onclick="calculator.answer.value += '1'" />
-            <input type="button" value=" 2 " onclick="calculator.answer.value += '2'" />
-            <input type="button" value=" 3 " onclick="calculator.answer.value += '3'" />
-            <input type="button" value=" + " onclick="calculator.answer.value += '+'" />
-            <br/>
-            
-            <input type="button" value=" 4 " onclick="calculator.answer.value += '4'" />
-            <input type="button" value=" 5 " onclick="calculator.answer.value += '5'" />
-            <input type="button" value=" 6 " onclick="calculator.answer.value += '6'" />
-            <input type="button" value=" - " onclick="calculator.answer.value += '-'" />
-            </br>
-          
-            <input type="button" value=" 7 " onclick="calculator.answer.value += '7'" />
-            <input type="button" value=" 8 " onclick="calculator.answer.value += '8'" />
-            <input type="button" value=" 9 " onclick="calculator.answer.value += '9'" />
-            <input type="button" value=" x " onclick="calculator.answer.value += '*'" />
-            </br>
-        
-            <input type="button" value=" c " onclick="calculator.answer.value = ''" />
-            <input type="button" value=" 0 " onclick="calculator.answer.value += '0'" />
-            <input type="button" value=" = " onclick="calculator.answer.value = eval(calculator.answer.value)" />
-            <input type="button" value=" / " onclick="calculator.answer.value += '/'" />
-            </br>
-  
-    
-          </form>
-          <div id="agh">
-            <a href="https://calbot.netlify.com/" style="text-decoration: none; background-color: #2e8b57; color: #fff; display: inline-block; padding: 3px 10px; font-weight: bold; border-radius: 5px;">Back</a>
-<p> </p>
+        HTML Options
+26
+        <button class="key numeric" ng-click="print(3)">3</button>
+27
+        <button class="key function" ng-click="add()">+</button>
+28
+      </div>
+29
+      <div class="row">
+30
+        <button class="key numeric double" ng-click="print(0)">0</button>
+31
+        <button class="key numeric" ng-click="print('.')">.</button>
+32
+        <button class="key function last" ng-click="equal()">=</button>
+33
+      </div>
+34
+    </div>
+35
+​
+36
+  </div>
+37
+</div>
 </body>
 </html>
 
