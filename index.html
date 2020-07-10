@@ -1,35 +1,45 @@
-<!--Made with HTML Site by @dante_nl-->
-<!DOCTYPE HTML>
+
+<!DOCTYPE html>
 <html>
+
 <head>
-<meta charset="utf-8">
-<meta name="viewport" content="width=device-width, initial-scale=1.0">
-<title>Cal</title>
-<style>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <style>
+        body {
 
-body { 
-background: white; 
-font-family: system-ui;
-color: black
-} 
+            font-family: system-ui;
+            color: black
+        }
 
-/* Light Mode */
-@media (prefers-color-scheme: dark) {
-
-body { 
-background-color: #1E1E1E; 
-color: #fff 
-} /* Dark Mode */
-}
-</style>
+        .button {
+            display: inline-block;
+            text-align: center;
+            vertical-align: middle;
+            padding: 12px 24px;
+            border: 1px solid #00cb70;
+            border-radius: 8px;
+            background: #00cb70;
+            background: -webkit-gradient(linear, left top, left bottom, from(#00cb70), to(#00cb70));
+            background: -moz-linear-gradient(top, #00cb70, #00cb70);
+            background: linear-gradient(to bottom, #00cb70, #00cb70);
+            font: normal normal bold 20px arial;
+            color: #ffffff;
+            text-decoration: none;
+        }
+        .button:hover {
+            border: 1px solid #00ff92;
+            background: #00f486;
+            background: -webkit-gradient(linear, left top, left bottom, from(#00f486), to(#00f486));
+            background: -moz-linear-gradient(top, #00f486, #00f486);
+            background: linear-gradient(to bottom, #00f486, #00f486);
+            color: #ffffff;
+            text-decoration: none;
+        }
+    </style>
 </head>
-<body>
-<h2>Cal - A calculator in Discord</h2>
-<p>Cal is a simple calculator in Discord</p>
 
-<a href="https://discord.com/api/oauth2/authorize?client_id=714838331619541073&permissions=2048&redirect_uri=https%3A%2F%2Fcalbot.netlify.app&response_type=code&scope=bot%20identify" style="text-decoration: none; background-color: #43B581; color: #fff; display: inline-block; padding: 3px 10px; font-weight: bold; border-radius: 5px;">Add Cal</a>
-  <p></p>
-<a href="https://discord.gg/QWfuZUq" style="text-decoration: none; background-color: #43B581; color: #fff; display: inline-block; padding: 3px 10px; font-weight: bold; border-radius: 5px;">Join the support server</a>
-  <p></p>
-<a href="https://sites.google.com/view/caldocs/" style="text-decoration: none; background-color: #8A2BE2; color: #fff; display: inline-block; padding: 3px 10px; font-weight: bold; border-radius: 5px;">View the docs</a>
-<h1></h1>
+<body>
+<p style="text-align: center;"><a class="button" href="Pages/cal.html" rel="noopener noreferrer" target="_blank">Full screen</a></p>
+</body>
+
+</html>
